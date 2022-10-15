@@ -1,0 +1,38 @@
+.footer {
+  height: 300px;
+  width: 100%;
+  background-image: url(../../assets/img/headr.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:  white;
+  background-position: 50%;
+  padding: 40px 300px;
+  
+  nav {
+    display: flex;
+    grid-area: 40px;
+    justify-content: space-around;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      list-style: none;
+      align-items: start;
+      
+      .name {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-decoration: none;
+      }
+
+      li {
+        font-size: 20px;
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+}

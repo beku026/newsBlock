@@ -1,0 +1,23 @@
+h2 {
+    margin: 35px 0 ;
+    font-size: 30px;
+}
+
+button {
+    color: white;
+    border: none;
+    width: 250px;
+    height: 40px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 19px 40px; 
+    margin: 30px 200px 40px;
+}
+

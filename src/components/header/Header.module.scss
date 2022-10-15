@@ -1,0 +1,15 @@
+.header {
+  height: 250px;
+  width: 100%;
+  background-image: url(../../assets/img/headr.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:  white;
+  background-position: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
